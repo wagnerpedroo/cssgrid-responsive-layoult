@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.polaroid {
+    background: #ffffff;
+    padding: 15px 15px 40px;
+}
+
+.photo {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
